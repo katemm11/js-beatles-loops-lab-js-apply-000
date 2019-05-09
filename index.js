@@ -28,14 +28,17 @@ function iLoveTheBeatles(num) {
     arr.push('I love the Beatles!');
     i++;
   }
-  while (i < Math.abs(14 - num));
+  while (i < (14-num));
   return arr;
 }
-
-
+  if (num > 15) {
+    do {
+      arr.push('I love the Beatles!');
+      i++
+    }
+    while (i < (num - 14));
 }
-
-
+}
 
 
 
