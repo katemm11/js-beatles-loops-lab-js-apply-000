@@ -33,7 +33,9 @@ function iLoveTheBeatles(num) {
 }
 
   if (num > 15) {
-  while (i < Math.abs(15 - num))
+  while (i < Math.abs(15 - num)) {
+    
+  }
     return arr;
     }
     
