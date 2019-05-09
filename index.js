@@ -28,7 +28,7 @@ function iLoveTheBeatles(num) {
     arr.push('I love the Beatles!');
     i++;
   }
-  while (i < (15-num));
+  while (i < (15 - num));
   return arr;
 }
   else if (num > 15) {
@@ -38,7 +38,6 @@ function iLoveTheBeatles(num) {
     }
     while (i < (num - 15));
 }
-
   return arr;
 }
 
