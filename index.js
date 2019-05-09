@@ -23,6 +23,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(num) {
   let arr = [];
   let i;
+  if (num < 15) {
   do {
     arr.push('I love the Beatles!');
     i++;
@@ -31,6 +32,8 @@ function iLoveTheBeatles(num) {
   return arr;
 }
 
+
+}
 
 
 
