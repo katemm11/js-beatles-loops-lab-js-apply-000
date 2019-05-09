@@ -23,14 +23,12 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(num) {
   let arr = [];
   let i;
-  if (num < 15) {
   do {
     arr.push('I love the Beatles!');
     i++;
   }
-  while (i < num);
+  while (i < Math.abs(15 - num));
   return arr;
-}
 
   if (num > 15) {
     do {
