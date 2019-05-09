@@ -33,11 +33,13 @@ function iLoveTheBeatles(num) {
 }
 
   if (num > 15) {
-  while (i < Math.abs(15 - num)) {
-    arr.push('I love the Beatles!');
-  }
-    return arr;
+    do {
+      arr.push('I love the Beatles!')
     }
+    while (i < Math.abs(15 - num))
+    return arr;
+  
+  }
   }
 
 
